@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#e8f0e0">
+<title>조윤우의 첫 번째 생일 모험</title>
+<meta property="og:title" content="조윤우의 첫 번째 생일 모험">
+<meta property="og:description" content="2026년 9월 5일 토요일 낮 12시 · 라마다프라자수원 쉐프스 샤프론룸">
+<meta property="og:image" content="photo_main.jpg">
+<meta property="og:type" content="website">
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#e8f0e0;color:#594c43}
+body{font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif}
+.book{width:100%;max-width:480px;min-height:100svh;margin:auto;background:linear-gradient(#faf7ed,#edf2df);overflow:hidden}
+.page{min-height:100svh;padding:35px 24px 28px;display:none;flex-direction:column;align-items:center;text-align:center}
+#p1{display:flex}
+.page:target{display:flex;animation:fade .35s ease}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+h1,h2{font-family:"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif;color:#66584b}
+h1{font-size:33px;line-height:1.4;margin:12px 0}
+h2{font-size:26px;line-height:1.45;margin:14px 0}
+.eyebrow{font-size:13px;letter-spacing:2px;color:#887c68}
+.sub{line-height:1.9;color:#817365}
+.scene{height:230px;width:100%;margin:20px 0;background:linear-gradient(#cfe5ed 0 58%,#cfe1b9 58%);border-radius:40%;position:relative;overflow:hidden}
+.castle{position:absolute;left:50%;bottom:45px;transform:translateX(-50%);width:125px;height:90px;background:#f4d8b6;border:3px solid #b88d68}
+.tower{position:absolute;bottom:0;width:35px;height:105px;background:#f7dfc3;border:3px solid #b88d68}
+.l{left:-30px}.r{right:-30px}
+.door{position:absolute;bottom:0;left:45px;width:35px;height:50px;background:#9c7460;border-radius:20px 20px 0 0}
+.hill{position:absolute;bottom:-65px;width:120%;height:140px;left:-10%;background:#a9c997;border-radius:50%}
+.button{border:0;border-radius:30px;padding:14px 28px;background:#9aaf7c;color:white;font-size:18px;font-weight:700;box-shadow:0 5px #758b5b;cursor:pointer;-webkit-tap-highlight-color:transparent}
+.back{border:0;background:none;color:#8e806f;font-size:16px;margin-top:14px;padding:8px 16px;cursor:pointer}
+.dots{margin-top:auto;color:#9aaf7c;letter-spacing:7px}
+.photo{width:100%;margin:18px 0}
+.frame{width:84%;aspect-ratio:4/5;margin:auto;border:9px solid #fffdf6;outline:2px solid #c9bda8;background:#f7f0df;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 25px #0001;transform:rotate(-2deg);overflow:hidden}
+.frame img{width:100%;height:100%;object-fit:cover;display:block}
+.hint{font-size:16px;line-height:1.5;color:#9b8b78;padding:18px}
+.hint b{font-size:20px;color:#7d6e5e}
+.gallery{display:grid;grid-template-columns:1fr 1fr;gap:12px;width:100%;margin:10px 0}
+.gallery .frame{width:100%;aspect-ratio:1}
+.note,.detail{width:100%;background:#fffaf0;border:1px solid #d8cdbb;border-radius:18px;padding:14px 17px;line-height:1.85;font-size:14px}
+.detail{font-size:15px}
+.footer{font-size:12px;color:#9a8d7c;margin-top:15px}
+@media(max-width:360px){
+  .page{padding-left:18px;padding-right:18px}
+  h1{font-size:29px}h2{font-size:23px}
+  .scene{height:205px}
+  .button{font-size:17px;padding:13px 23px}
+}
+</style>
+</head>
+<body>
+<main class="book">
+
+<section class="page active" id="p1">
+<div style="font-size:42px">🌙</div>
+<div class="eyebrow">ONCE UPON A TIME...</div>
+<h1>조윤우의<br>첫 번째 생일 모험</h1>
+<div class="sub">작고 귀여운 아기였던 윤우가<br>어느새 첫 번째 생일을 맞았어요.</div>
+<div class="scene"><div class="castle"><div class="tower l"></div><div class="tower r"></div><div class="door"></div></div><div class="hill"></div></div>
+<button class="button" type="button" onclick="location.hash='p2'">✨ 모험 시작하기</button>
+<div class="dots">● · · ·</div>
+</section>
+
+<section class="page" id="p2">
+<div class="eyebrow">CHAPTER 01 · THE BEGINNING</div>
+<h2>아주 작은 아기가<br>태어났어요 👶🏻</h2>
+<div class="photo">
+<div class="frame">
+<img src="photo_newborn.jpg" alt="갓 태어난 윤우">
+</div>
+</div>
+<div class="note">“세상에 온 지 벌써 1년!”<br>조윤우의 첫 번째 이야기가 시작되었어요.</div>
+<button class="button" type="button" onclick="location.hash='p3'">다음 이야기 →</button>
+<button class="back" type="button" onclick="location.hash='p1'">← 책 표지로</button>
+<div class="dots">· ● · ·</div>
+</section>
+
+<section class="page" id="p3">
+<div class="eyebrow">CHAPTER 02 · GROWING UP</div>
+<h2>무럭무럭 자랐어요 🌱</h2>
+<div class="gallery">
+<div class="frame"><img src="photo_smile.jpg" alt="웃는 얼굴"></div>
+<div class="frame"><img src="photo_tummytime.jpg" alt="뒤집기 놀이"></div>
+<div class="frame"><img src="photo_play.jpg" alt="좋아하는 놀이"></div>
+<div class="frame"><img src="photo_recent.jpg" alt="가장 귀여운 모습"></div>
+</div>
+<div class="note">웃고, 놀고, 자라고, 사랑받으며<br>365일을 보낸 윤우의 작은 모험들 ✨</div>
+<button class="button" type="button" onclick="location.hash='p4'">마지막 이야기 →</button>
+<button class="back" type="button" onclick="location.hash='p2'">← 이전 이야기</button>
+<div class="dots">· · ● ·</div>
+</section>
+
+<section class="page" id="p4">
+<div class="eyebrow">THE BIRTHDAY QUEST</div>
+<h2>드디어 첫 번째 생일! 🎂</h2>
+<div class="photo">
+<div class="frame" style="aspect-ratio:4/3">
+<img src="photo_main.jpg" alt="조윤우 돌잔치 대표 사진">
+</div>
+</div>
+<div class="detail"><b>📅 2026년 9월 5일 토요일</b><br>🕛 낮 12시<br>🏡 라마다프라자수원<br>쉐프스 샤프론룸</div>
+<button class="button" type="button" onclick="alert('🎉 조윤우의 첫 번째 생일 파티에 초대되었어요!')">🎟️ 생일 파티 입장하기</button>
+<div class="footer">윤우의 첫 번째 생일 모험에<br>함께해 주셔서 감사합니다 ♡</div>
+<button class="back" type="button" onclick="location.hash='p1'">↻ 처음부터 다시 보기</button>
+<div class="dots">· · · ●</div>
+</section>
+
+</main>
+
+</body>
+</html>
